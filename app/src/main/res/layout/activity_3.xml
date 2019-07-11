@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table"
+    android:stretchColumns="*"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableRow>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        <TextView
+            android:id="@+id/col1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Дата"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/col2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Сумма процентов"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/col3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Остаток вклада"
+            android:textStyle="bold" />
+    </TableRow>
+</TableLayout>

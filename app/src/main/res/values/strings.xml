@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="animals">
+        <item>В конце месяца</item>
+        <item>В день вклада</item>
+        <item>В конце срока</item>
+    </string-array>
+</resources>
